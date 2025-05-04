@@ -2,14 +2,14 @@
 
 This repository provides a mostly-from-scratch implementation of the Transformer architecture (Vaswani et al., 2017), focusing on learning and clarity.
 
-## 📁 Project Structure
+## Project Structure
 
 - `models.py` — PyTorch implementation of the Transformer architecture.
 - Other files (e.g. `train_wb.py`, `utils.py`) — **Copied** from [hkproj/pytorch-transformer](https://github.com/hkproj/pytorch-transformer) for training and logging purposes.
 
-## 🐳 Running with Docker
+## Running with Docker
 
-A Docker environment is provided to simplify setup and ensure consistency.
+A Docker environment is provided to simplify setup and ensure consistency. If you prefer to run locally, refer to `requirements.txt`.
 
 ### 1. Build Docker Image
 
