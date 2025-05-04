@@ -47,10 +47,6 @@ Training progress will be logged to [Weights & Biases](https://wandb.ai) if conf
 
 This project integrates with **Weights & Biases (W&B)** for experiment tracking. Make sure you're logged in via `wandb login` or have the environment variable `WANDB_API_KEY` set.
 
-## Requirements
-
-Dependencies are handled within the Dockerfile, but if you're running locally, you'll need to refer to the `Dockerfile` for the exact versions.
-
 ## Credit
 
 Thanks to [hkproj](https://github.com/hkproj/pytorch-transformer) for the excellent reference implementation.
