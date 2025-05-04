@@ -1,6 +1,6 @@
 # Implement Transformer Mostly From Scratch
 
-This repository provides a mostly-from-scratch implementation of the Transformer architecture (Vaswani et al., 2017), focusing on learning and clarity. The core model implementation is written manually, while training and utility scripts are adapted from external sources for convenience.
+This repository provides a mostly-from-scratch implementation of the Transformer architecture (Vaswani et al., 2017), focusing on learning and clarity.
 
 ## 📁 Project Structure
 
