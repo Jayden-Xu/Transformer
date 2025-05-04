@@ -1,0 +1,30 @@
+{
+    "os": "Linux-6.10.14-linuxkit-aarch64-with-glibc2.36",
+    "python": "3.9.22",
+    "heartbeatAt": "2025-05-04T05:51:34.160533",
+    "startedAt": "2025-05-04T05:51:33.643717",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/app/train_wb.py",
+    "codePath": "train_wb.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": null,
+    "root": "/app",
+    "host": "be7955f3165b",
+    "username": "root",
+    "executable": "/usr/local/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 1006.852954864502,
+        "used": 15.368385314941406
+    },
+    "memory": {
+        "total": 3.8275527954101562
+    }
+}

@@ -1,0 +1,31 @@
+
+Using device: cpu
+Max length of source sentence: 309
+Max length of target sentence: 274
+Processing Epoch 00:   0%|                                               | 0/29098 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/app/train_wb.py", line 274, in <module>
+    train_model(config)
+  File "/app/train_wb.py", line 224, in train_model
+    encoder_output = model.encode(encoder_input, encoder_mask) # (B, seq_len, d_model)
+  File "/app/model.py", line 200, in encode
+    return self.encoder(src, src_mask)
+  File "/usr/local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/model.py", line 141, in forward
+    x = layer(x, mask)
+  File "/usr/local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/model.py", line 128, in forward
+    x = self.residual_connections[0](x, lambda x: self.self_attention_block(x, x, x, src_mask))
+  File "/usr/local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/model.py", line 73, in forward
+    return x + self.dropout(sublayer(x))
+  File "/app/model.py", line 128, in <lambda>
+    x = self.residual_connections[0](x, lambda x: self.self_attention_block(x, x, x, src_mask))
+  File "/usr/local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/model.py", line 114, in forward
+    x = x.transpose(1, 2).contiguous().view(x.size(0), x.size(1), self.d_model)
+RuntimeError: shape '[1, 8, 512]' is invalid for input of size 179200
