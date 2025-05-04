@@ -5,7 +5,7 @@ This repository provides a mostly-from-scratch implementation of the Transformer
 ## Project Structure
 
 - `models.py` — PyTorch implementation of the Transformer architecture.
-- Other files (e.g. `train_wb.py`, `utils.py`) — **Copied** from [hkproj/pytorch-transformer](https://github.com/hkproj/pytorch-transformer) for training and logging purposes.
+- Other files (e.g. `train_wb.py`) — **Copied** from [hkproj/pytorch-transformer](https://github.com/hkproj/pytorch-transformer) for training and logging purposes.
 
 ## Running with Docker
 
